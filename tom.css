@@ -1,0 +1,109 @@
+.header{
+    display:flex;
+    width:100vw;
+    min-width: 100%;
+    background-color: rgb(51, 47, 47);
+    height:15vh;
+    border-radius: 10px;
+
+}
+.hea{
+    margin:0 auto;
+    min-width: 100%;
+    background-color: rgb(51, 47, 47);
+    height:15vh;
+    border-radius: 10px;
+
+}
+#image{
+    max-width: 30%;
+}
+.list{
+    position:absolute;
+    right:2%;
+    top:2%;
+    color: gold;
+    width:10vw;
+    padding:8px 4px;
+    background-color: transparent;
+    font-size: 250%;
+}
+.head{
+    color:gold;
+    text-shadow: 4px 4px 5px black;
+    position: absolute;
+    left:40%;
+    top:0%;
+    font-family: serif;
+    width: 33vw;
+    font-size: 8vw;
+}
+.word{
+    color:rgb(255, 255, 255);
+    text-shadow: 4px 4px 5px black;
+    position: absolute;
+    font-family: serif;
+    font-size: 8vw;
+    left:8%;
+    top:20%;
+}
+.contentr{
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    margin:auto;
+    height:50vh;
+    width:100vw;
+    overflow: hidden;
+    animation-name:move;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes move{
+    0%{
+        background-image: url("brownfood.jpg");
+    }
+    30%{
+        background-image: url("millet.jpg");
+    }
+    50%{
+        background-image:url("milleta.jpg");
+    }
+    100%{
+        background-image: url("corn.jpg");
+    }
+}
+.content{
+width:100vw;
+height:100vh;
+background-color: rgb(51, 47, 47);
+}
+.text{
+    text-align: center;
+    border-radius: 20px;
+    width:100vw;
+    height:auto;
+   background-color: rgb(51, 47, 47);
+    color: white;
+    text-shadow:2px 4px 4px rgb(19, 19, 20);
+}
+.button{
+    position: absolute;
+    right: 0%;
+    border-radius: 10px;
+    width:30vw;
+    background-color:rgb(51, 153, 59) ;
+    color:white;
+}
+.footer{
+    position: absolute;
+    bottom:0;
+    width:100vw;
+    height:auto;
+    background-color: transparent;
+    display:flex;
+    text-decoration: none;
+    font-size: 10vw;
+    padding:10px 10px;
+    color:gold;
+    letter-spacing: 30px;
+}
